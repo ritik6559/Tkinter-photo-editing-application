@@ -2,8 +2,6 @@ import customtkinter as ctk
 from tkinter import filedialog, Canvas
 from settings import *
 
-
-
 class ImageImport(ctk.CTkFrame):
 
     def __init__(self, parent, import_func):

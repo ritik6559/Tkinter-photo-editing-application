@@ -72,4 +72,4 @@ class ExportFrame(ctk.CTkFrame):
 
         FileNamePanel(self, self.name_string, self.file_string)
         FilePathPanel(self,self.path_string )
-        SaveButton(self, export_image, self.name_string, self.file_string,self.path_string)
+        SaveButton(self, export_image, self.name_string, self.file_string,self.path_string  )

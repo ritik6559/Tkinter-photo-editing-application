@@ -4,7 +4,6 @@ from PIL import Image, ImageTk, ImageOps, ImageEnhance, ImageFilter
 from menu import Menu
 from panel import * 
 
-
 class App(ctk.CTk):
     def __init__(self):
 
@@ -162,7 +161,5 @@ class App(ctk.CTk):
     def export_image(self, name, file, path):
         export_string = f'{path}/{name}.{file}'
         self.image.save(export_string)
-
-
 
 App()
